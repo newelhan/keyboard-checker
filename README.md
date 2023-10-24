@@ -1,5 +1,6 @@
 # keyboard-checker
 https://newelhan.github.io/keyboard-checker/
+
 Keyboard Checker website was created using HTML, CSS, and JavaScript on October 2023, updates are to come
 
 - Mostly created using HTML and CSS, some JavaScript was used
