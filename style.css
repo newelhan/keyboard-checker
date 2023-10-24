@@ -1,0 +1,143 @@
+body {
+  background-color: black;
+  font-family: Inter;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-title {
+  color: white;
+  font-weight: bold;
+  font-size: 60px;
+  margin: 30px 0px 40px;
+}
+
+.keyboard {
+  display: flex;
+  justify-content: space-between;
+  width: 1300px;
+}
+
+.keyboard-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1000px;
+}
+
+.function-row button {
+  width: 65px;
+  height: 35px;
+}
+
+button {
+  position: relative;
+  font-size: 22px;
+  width: 55px;
+  height: 55px;
+  border-radius: 10px;
+  background-color: black;
+  border: solid white 1px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-weight: bold;
+  opacity: 50%;
+}
+
+.button-keydown {
+  opacity: 1;
+  border-color: rgb(4, 247, 137);
+  box-shadow: 0px 0px 20px rgb(0, 255, 0);
+  transition: 0.15s;
+}
+
+.button-keyup {
+  opacity: 1;
+  border-color: rgb(14, 225, 14);
+  box-shadow: 0px 0px 10px green;
+  transition: 0.15s;
+}
+
+.shift-keys {
+  font-size: 13px;
+  position: absolute;
+  top: 3px;
+  right: 7px;
+}
+
+.control-keypad {
+  display: grid;
+  grid-template-columns: repeat(3, 90px);
+  grid-template-rows: repeat(4, 70px);
+}
+
+.control-keypad button {
+  font-size: 15px;
+  width: 85px;
+  height: 53px;
+}
+
+.btn-backquote {
+  padding-top: 20px;
+}
+
+.at-symbol {
+  font-size: 10px;
+}
+
+.caret-symbol {
+  margin-top: 3px;
+  font-size: 10px;
+}
+
+.btn-function {
+  border-color: rgb(0, 195, 255);
+  box-shadow: 0px 0px 10px rgb(0, 187, 255);
+  opacity: 80%;
+}
+
+.btn-tab, .btn-controlleft, .btn-controlright {
+  width: 100px;
+}
+
+.btn-capslock, .btn-enter {
+  width: 120px;
+}
+
+.btn-capslock {
+  font-size: 20px;
+}
+
+.btn-backspace {
+  width: 150px;
+}
+
+.btn-shiftleft, .btn-shiftright {
+  width: 160px;
+}
+
+.btn-space {
+  width: 400px;
+}
+
+.arrowupdown {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 55px;
+}
+
+.arrowupdown button {
+  height: 23px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.newelhan-icon {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 50px;
+  border-radius: 50%;
+}

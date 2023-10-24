@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keyboard Visualizer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <p class="main-title">Keyboard Checker</p>
+  <div class="keyboard">
+    <div class="typing-keypad">
+      <div class="keyboard-row function-row">
+        <button class="btn-escape">Esc</button>
+        <button class="btn-f1">F1</button>
+        <button class="btn-f2">F2</button>
+        <button class="btn-f3">F3</button>
+        <button class="btn-f4">F4</button>
+        <button class="btn-f5">F5</button>
+        <button class="btn-f6">F6</button>
+        <button class="btn-f7">F7</button>
+        <button class="btn-f8">F8</button>
+        <button class="btn-f9">F9</button>
+        <button class="btn-f10">F10</button>
+        <button class="btn-f11">F11</button>
+        <button class="btn-f12">F12</button>
+      </div>
+      <br>
+      <div class="keyboard-row">
+
+        <button class="btn-backquote">
+          <div class="shift-keys">~</div>
+          <div>`</div>
+        </button>
+
+        <button class="btn-digit1">
+          <div class="shift-keys">!</div>
+          <div>1</div>
+        </button>
+
+        <button class="btn-digit2">
+          <div class="shift-keys at-symbol">@</div>
+          <div>2</div>
+        </button>
+        
+        <button class="btn-digit3">
+          <div class="shift-keys">#</div>
+          <div>3</div>
+        </button>
+
+        <button class="btn-digit4">
+          <div class="shift-keys">$</div>
+          <div>4</div>
+        </button>
+
+        <button class="btn-digit5">
+          <div class="shift-keys">%</div>
+          <div>5</div>
+        </button>
+
+        <button class="btn-digit6">
+          <div class="shift-keys">^</div>
+          <div>6</div>
+        </button>
+
+        <button class="btn-digit7">
+          <div class="shift-keys">&</div>
+          <div>7</div>
+        </button>
+
+        <button class="btn-digit8">
+          <div class="shift-keys">*</div>
+          <div>8</div>
+        </button>
+
+        <button class="btn-digit9">
+          <div class="shift-keys">&#x207D</div>
+          <div>9</div>
+        </button>
+
+        <button class="btn-digit0">
+          <div class="shift-keys">&#x207E</div>
+          <div>0</div>
+        </button>
+
+        <button class="btn-minus">
+          <div class="shift-keys">_</div>
+          <div>-</div>
+        </button>
+
+        <button class="btn-equal">
+          <div class="shift-keys">+</div>
+          <div>=</div>
+        </button>
+
+        <button class="btn-backspace">Backspace</button>
+      </div>
+      <br>
+      <div class="keyboard-row">
+        <button class="btn-tab">Tab</button>
+        <button class="btn-keyq">Q</button>
+        <button class="btn-keyw">W</button>
+        <button class="btn-keye">E</button>
+        <button class="btn-keyr">R</button>
+        <button class="btn-keyt">T</button>
+        <button class="btn-keyy">Y</button>
+        <button class="btn-keyu">U</button>
+        <button class="btn-keyi">I</button>
+        <button class="btn-keyo">O</button>
+        <button class="btn-keyp">P</button>
+        <button class="btn-bracketleft">
+          <div class="shift-keys">&#123;</div>
+          <div>[</div>
+        </button>
+        <button class="btn-bracketright">
+          <div class="shift-keys">&#125;</div>
+          <div>]</div>
+        </button>
+        <button class="btn-backslash">
+          <div class="shift-keys caret-symbol">&#124;</div>
+          <div>\</div>
+        </button>
+      </div>
+      <br>
+      <div class="keyboard-row">
+        <button class="btn-capslock">Caps Lock</button>
+        <button class="btn-keya">A</button>
+        <button class="btn-keys">S</button>
+        <button class="btn-keyd">D</button>
+        <button class="btn-keyf">F</button>
+        <button class="btn-keyg">G</button>
+        <button class="btn-keyh">H</button>
+        <button class="btn-keyj">J</button>
+        <button class="btn-keyk">K</button>
+        <button class="btn-keyl">L</button>
+        <button class="btn-semicolon">
+          <div class="shift-keys">:</div>
+          <div>;</div>
+        </button>
+        <button class="btn-quote">
+          <div class="shift-keys">"</div>
+          <div>"</div>
+        </button>
+        <button class="btn-enter">Enter</button>
+      </div>
+      <br>
+      <div class="keyboard-row">
+        <button class="btn-shiftleft">Shift</button>
+        <button class="btn-keyz">Z</button>
+        <button class="btn-keyx">X</button>
+        <button class="btn-keyc">C</button>
+        <button class="btn-keyv">V</button>
+        <button class="btn-keyb">B</button>
+        <button class="btn-keyn">N</button>
+        <button class="btn-keym">M</button>
+        <button class="btn-comma">
+          <div class="shift-keys">&lt;</div>
+          <div>,</div>
+        </button>
+        <button class="btn-period">
+          <div class="shift-keys">&gt;</div>
+          <div>.</div>
+        </button>
+        <button class="btn-slash">
+          <div class="shift-keys">?</div>
+          <div>/</div>
+        </button>
+        <button class="btn-shiftright">Shift</button>
+      </div>
+      <br>
+      <div class="keyboard-row">
+        <button class="btn-function">Fn</button>
+        <button class="btn-controlleft">Ctrl</button>
+        <button class="btn-altleft">Alt</button>
+        <button class="btn-space"></button>
+        <button class="btn-altright">Alt</button>
+        <button class="btn-controlright">Ctrl</button>
+        <button class="btn-arrowleft">&#129028;</button>
+        <div class="arrowupdown">
+          <button class="btn-arrowup">&#129029;</button>
+          <button class="btn-arrowdown">&#129031;</button>
+        </div>
+        <button class="btn-arrowright">&#129030;</button>
+      </div>
+    </div>
+    <div class="control-keypad">
+      <button class="btn-printscreen">Print Screen</button>
+      <button class="btn-scrolllock">Scroll Lock</button>
+      <button class="btn-pause">Pause</button>
+      <button class="btn-insert">Insert</button>
+      <button class="btn-home">Home</button>
+      <button class="btn-pageup">Page Up</button>
+      <button class="btn-delete">Delete</button>
+      <button class="btn-end">End</button>
+      <button class="btn-pagedown">Page Down</button>
+      <br>   
+      <button class="btn-numlock">Num Lock</button>
+    </div>
+  </div>
+  
+  <img src="newelhan.png" class="newelhan-icon"/>
+
+  <script src="script.js"></script>
+</body>
+</html>
